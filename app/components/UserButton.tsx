@@ -9,7 +9,7 @@ import Link from "next/link";
 const UserButton = (props: Props) => {
   return (
     <>
-      <Link href={`/app/users/${props.id}`}>USR ID {props.id}</Link>
+      <Link href={`/users/${props.id}`}>USR ID {props.id}</Link>
     </>
   );
 };
