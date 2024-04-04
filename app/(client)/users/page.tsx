@@ -32,8 +32,8 @@ const UsersPage = async () => {
         <table className="table">
           <thead>
             <tr>
-              <th>USR ID</th>
-              <th>E-mail</th>
+              <th>USR ID:</th>
+              <th>E-mail:</th>
             </tr>
           </thead>
           <tbody>
