@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "Construtora": "Direcional Engenharia S/A",
+    "Data_Divulgacao_PDF": "2023",
+    "Outros_Indicadores": {
+      "ROE_Anualizado_Ajustado": {
+        "4T23": "20%",
+        "4T22": "17%",
+        "Variação %": "+3 p.p."
+      },
+      "Dívida_Líquida_Ajustada": {
+        "4T23": -72.1,
+        "4T22": 193.4,
+        "Variação %": -265.5
+      },
+      "Geração_de_Caixa": {
+        "4T23": -15.5,
+        "4T22": 98.2,
+        "Variação %": -113.7
+      },
+      "Dívida_Líquida_Ajustada3_/_Patrimônio_Líquido": {
+        "4T23": "-3.4%",
+        "4T22": "13.3%",
+        "Variação %": "-16.7 p.p."
+      },
+      "Estoque-VGV_100_%": {
+        "4T23": 5146.3,
+        "4T22": 4203.2,
+        "Variação %": "+943.1"
+      },
+      "Landbank-VGV_100_%": {
+        "4T23": 36271.5,
+        "4T22": 32458.5,
+        "Variação %": "+3813.0"
+      }
+    },
+    "Indicadores_Financeiros": {
+      "2023": {
+        "Receita Líquida": 2355.2,
+        "Lucro Bruto Ajustado": 856.2,
+        "Margem Bruta Ajustada": "36.4%",
+        "Lucro Líquido Operacional": 324,
+        "Margem Líquida Operacional": "13.8%",
+        "EBITDA": 547,
+        "VGV Lançado - 100%": 4857,
+        "Unidades Lançadas": 17180
+      },
+      "2022": {
+        "Receita Líquida": 2162.6,
+        "Lucro Bruto Ajustado": 770.1,
+        "Margem Bruta Ajustada": "35.6%",
+        "Lucro Líquido Operacional": 187.9,
+        "Margem Líquida Operacional": "8.7%",
+        "EBITDA": 437,
+        "VGV Lançado - 100%": 3636,
+        "Unidades Lançadas": 14525
+      },
+      "Variação_%": {
+        "Receita Líquida": "+8.9%",
+        "Lucro Bruto Ajustado": "+11.1%",
+        "Margem Bruta Ajustada": "+0.8 p.p.",
+        "Lucro Líquido Operacional": "+72.0%",
+        "Margem Líquida Operacional": "+5.1 p.p.",
+        "EBITDA": "+25.1%",
+        "VGV Lançado - 100%": "+33.6%",
+        "Unidades Lançadas": "+18.3%"
+      }
+    },
+    "Destaques": [
+      "Recordes de Vendas Líquidas: R$ 4 bilhões em 2023 e R$ 1,2 bilhão no 4T23, crescendo 33% e 76% sobre os mesmos períodos do ano anterior.",
+      "Lançamentos alcançam R$ 4,9 bilhões em 2023, crescimento de 34% sobre 2022: o maior volume anual da história da Companhia.",
+      "No 4T23, o Lucro Líquido atingiu R$ 100 milhões, um incremento de 45% em relação ao 3T23 e de 27%  em relação ao 4T22.",
+      "Diluição de 110 bps do G&A sobre a Receita Bruta Total3 em comparação ao 4T22.",
+      "Despesas Comerciais do ano de 2023 permaneceram nominalmente em linha com o ano anterior.",
+      "Receita a Apropriar (REF) atinge R$ 1,7 bilhão no encerramento do 2023, +60% sobre o 2022.",
+      "Margem REF de 42,5% no encerramento do ano de 2023, um incremento de 280 bps sobre o 2022.",
+      "Margem Bruta Ajustada: ajuste excluindo os juros capitalizados no custo e o efeito do Programa Pode Entrar.",
+      "Ajuste excluindo despesas não recorrentes com cessão de recebíveis e resultado de swap de ações."
+    ],
+    "Mensagem_Administração": {
+      "texto": "A mensagem da administração da Direcional Engenharia S/A destaca os resultados excepcionais alcançados no 4T23 e ao longo do ano de 2023, ressaltando o sucesso na oferta subsequente de ações e o recorde histórico de lançamentos e vendas de unidades habitacionais. Além disso, enfatiza a eficiência operacional e financeira da empresa, evidenciada pelo aumento da Receita Líquida e do Lucro Líquido. O texto também aborda a estratégia de expansão e a visão otimista para o futuro, enfatizando o compromisso com a sustentabilidade do negócio e a busca por novas conquistas em 2024.",
+      "graficos": [
+        "../balancos/direcional_engenharia/grafico1_4T23.png",
+        "../balancos/direcional_engenharia/grafico2_4T23.png",
+        "../balancos/direcional_engenharia/grafico3_4T23.png"
+      ]
+    }
+  }
+]
