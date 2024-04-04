@@ -7,8 +7,8 @@ import path from "path";
 let indicadoresTotal: string = path.join(
   "app",
   "(server)",
-  "(analises)",
-  "todasempresas",
+  "models",
+  "fs_module",
   "indicadores.json"
 );
 
@@ -23,6 +23,7 @@ export const reader = async () => {
         }
       });
     });
+    console.log(data);
     return data;
   } catch (error) {
     throw error;
@@ -39,7 +40,7 @@ function writeHandler(err: any) {
 
 export async function writer(data: any) {
   try {
-    await fs.writeFile(indicadoresTotal, data, "utf8", writeHandler);
+    // await fs.writeFile(indicadoresTotal, data, "utf8", writeHandler);
     console.log("File written successfully.");
   } catch (err) {
     console.error("Error writing to file:", err);
