@@ -3,7 +3,6 @@ import fs from "node:fs";
 import path from "path";
 
 // interface Reader: any
-
 let indicadoresTotal: string = path.join(
   "app",
   "(server)",
@@ -15,13 +14,17 @@ let indicadoresTotal: string = path.join(
 export const reader = async () => {
   try {
     const data = await new Promise<string>((resolve, reject) => {
-      fs.readFile(indicadoresTotal, "utf8", (err, data) => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve(data);
+      fs.readFile(
+        "./app/(server)/models/fs_module/indicadores.json",
+        "utf8",
+        (err, data) => {
+          if (err) {
+            reject(err);
+          } else {
+            resolve(data);
+          }
         }
-      });
+      );
     });
     console.log(data);
     return data;
