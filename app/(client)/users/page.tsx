@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import UserButton from "../../components/UserButton.jsx";
+import UserButton from "../../components/UserButton";
 
 interface User {
   id: number;
