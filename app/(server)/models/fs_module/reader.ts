@@ -10,20 +10,17 @@ let indicadoresTotal: string = path.join(
   "fs_module",
   "indicadores.json"
 );
+console.log(indicadoresTotal);
 export const reader = async () => {
   try {
     const data = await new Promise<string>((resolve, reject) => {
-      fs.readFile(
-        "./app/(server)/models/fs_module/indicadores.json",
-        "utf8",
-        (err, data) => {
-          if (err) {
-            reject(err);
-          } else {
-            resolve(data);
-          }
+      fs.readFile(indicadoresTotal, "utf8", (err, data) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(data);
         }
-      );
+      });
     });
     return data;
   } catch (error) {
