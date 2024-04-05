@@ -7,7 +7,6 @@ export async function GET(request: Request) {
       const data: any = await fs.reader();
       return Response.json(JSON.parse(data));
     } catch (error) {
-      console.error("Error:", error);
       return Response.json({ error: "Internal Server Error" });
     }
   } else {

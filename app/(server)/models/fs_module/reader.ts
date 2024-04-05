@@ -10,7 +10,6 @@ let indicadoresTotal: string = path.join(
   "fs_module",
   "indicadores.json"
 );
-
 export const reader = async () => {
   try {
     const data = await new Promise<string>((resolve, reject) => {
@@ -26,7 +25,6 @@ export const reader = async () => {
         }
       );
     });
-    console.log(data);
     return data;
   } catch (error) {
     throw error;
